@@ -3,7 +3,7 @@ const text = require('./const');
 const pass = require('./password');
 
 require('dotenv').config()
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf('6398373321:AAG1WMobcr9xD8Z2KKEqzHo3ux_MbvCxxVc');
 
 
 // Обработка команд "/start" и "/help"
